@@ -1,0 +1,21 @@
+{
+  "DisplayName": null,
+  "SolarPeak": 13100.0,
+  "SolarNow": 2400.0,
+  "SolarDate": "2026-09-13T10:41:00Z",
+  "SolarIds": [163826],
+  "BatteryState": 2000,
+  "BatteryPeak": 6000.0,
+  "BatteryNow": -360.0,
+  "BatteryDate": "2026-09-13T10:41:00Z",
+  "BatterySoC": 54.8,
+  "BatterySoCDate": "2026-09-13T10:41:00Z",
+  "BatteryDischargeIds": [163823],
+  "BatteryChargeIds": [163822],
+  "BatterySocIds": [139691],
+  "GridPeak": 17250.0,
+  "GridNow": -120.0,
+  "GridDate": "2026-09-13T10:41:00Z",
+  "GridBoughtIds": [163824],
+  "GridSoldIds": [163825]
+}

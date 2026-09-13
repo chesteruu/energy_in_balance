@@ -1,0 +1,38 @@
+{
+  "Id": 1000,
+  "Meter": [
+    {
+      "Id": 139691,
+      "InstallationType": "SoC",
+      "RpiSerial": "abc123serial",
+      "DisplayName": "Test House",
+      "BatteryCapacityKwh": 10.0,
+      "HasBattery": true
+    },
+    {
+      "Id": 163822,
+      "InstallationType": "Charging",
+      "RpiSerial": "abc123serial"
+    },
+    {
+      "Id": 163823,
+      "InstallationType": "Discharging",
+      "RpiSerial": "abc123serial"
+    },
+    {
+      "Id": 163824,
+      "InstallationType": "EDIEL_E17",
+      "RpiSerial": "abc123serial"
+    },
+    {
+      "Id": 163825,
+      "InstallationType": "EDIEL_E18",
+      "RpiSerial": "abc123serial"
+    },
+    {
+      "Id": 163826,
+      "InstallationType": "Solar",
+      "RpiSerial": "abc123serial"
+    }
+  ]
+}

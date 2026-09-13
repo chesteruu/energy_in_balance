@@ -1,0 +1,15 @@
+{
+  "Id": 25210,
+  "Country": "SE",
+  "TimeZone": "Europe/Stockholm",
+  "Currency": "SEK",
+  "InverterModel": {
+    "Brand": "SAJ",
+    "Model": "H2-10K-T2",
+    "PowerWatt": 10000
+  },
+  "Dso": {
+    "Id": 34,
+    "DisplayName": "Test DSO"
+  }
+}

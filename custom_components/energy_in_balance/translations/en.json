@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Energy in Balance",
+        "description": "Sign in with the same email and password you use at energyinbalance.se.",
+        "data": {
+          "username": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate Energy in Balance",
+        "description": "The stored password no longer works. Enter a new one.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Email or password is incorrect",
+      "cannot_connect": "Could not reach the Energy in Balance API",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Energy in Balance site is already configured",
+      "reauth_successful": "Reauthentication successful"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Energy in Balance options",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "solar_power": { "name": "Solar power" },
+      "battery_power": { "name": "Battery power" },
+      "battery_charge_power": { "name": "Battery charge power" },
+      "battery_discharge_power": { "name": "Battery discharge power" },
+      "battery_soc": { "name": "Battery state of charge" },
+      "grid_power": { "name": "Grid power" },
+      "grid_import_power": { "name": "Grid import power" },
+      "grid_export_power": { "name": "Grid export power" },
+      "house_power": { "name": "House power" },
+      "solar_energy": { "name": "Solar energy" },
+      "battery_charge_energy": { "name": "Battery charge energy" },
+      "battery_discharge_energy": { "name": "Battery discharge energy" },
+      "grid_import_energy": { "name": "Grid import energy" },
+      "grid_export_energy": { "name": "Grid export energy" },
+      "spot_price": { "name": "Spot price" },
+      "fcr_revenue_today": { "name": "FCR-D revenue today" },
+      "battery_capacity": { "name": "Battery capacity" }
+    }
+  }
+}

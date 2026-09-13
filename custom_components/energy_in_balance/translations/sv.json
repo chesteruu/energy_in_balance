@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Energy in Balance",
+        "description": "Logga in med samma e-postadress och lösenord som på energyinbalance.se.",
+        "data": {
+          "username": "E-post",
+          "password": "Lösenord"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Autentisera Energy in Balance igen",
+        "description": "Det sparade lösenordet fungerar inte längre. Ange ett nytt.",
+        "data": {
+          "password": "Lösenord"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Fel e-postadress eller lösenord",
+      "cannot_connect": "Kunde inte nå Energy in Balance-API:t",
+      "unknown": "Oväntat fel"
+    },
+    "abort": {
+      "already_configured": "Den här Energy in Balance-anläggningen är redan tillagd",
+      "reauth_successful": "Ny autentisering lyckades"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Energy in Balance-alternativ",
+        "data": {
+          "scan_interval": "Uppdateringsintervall (sekunder)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "solar_power": { "name": "Soleffekt" },
+      "battery_power": { "name": "Batterieffekt" },
+      "battery_charge_power": { "name": "Batteriladdning" },
+      "battery_discharge_power": { "name": "Batteriurladdning" },
+      "battery_soc": { "name": "Batteriets laddningsnivå" },
+      "grid_power": { "name": "Näteffekt" },
+      "grid_import_power": { "name": "Elimport" },
+      "grid_export_power": { "name": "Elexport" },
+      "house_power": { "name": "Hushållsel" },
+      "solar_energy": { "name": "Solenergi" },
+      "battery_charge_energy": { "name": "Batteriladdning energi" },
+      "battery_discharge_energy": { "name": "Batteriurladdning energi" },
+      "grid_import_energy": { "name": "Importerad energi" },
+      "grid_export_energy": { "name": "Exporterad energi" },
+      "spot_price": { "name": "Spotpris" },
+      "fcr_revenue_today": { "name": "FCR-D-intäkt idag" },
+      "battery_capacity": { "name": "Batterikapacitet" }
+    }
+  }
+}
